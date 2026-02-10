@@ -1,5 +1,8 @@
-## Cómo empezar
-1. Iniciar API [./api/README.md]
-2. Configura tus variables de entorno (si las hay).
-3. Ejecuta `docker-compose up -d` para levantar el API y el servidor MCP.
-4. Ejecuta el agente en `agent01/`.
+## Documentación
+1. API [Readme](api/README.md)
+2. MCP [Readme](mcp/README.md)
+4. Agente [Readme](agent01/README.md)
+
+## Como iniciar
+5. Ejecuta `docker-compose up -d` para levantar el API y el servidor MCP.
+4. Ejecuta el agente en `agent01/`. [Readme](agent01/README.md)
