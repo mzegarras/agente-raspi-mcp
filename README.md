@@ -10,4 +10,4 @@
 4. Ejecuta el agente en `agent01/`. [Readme](agent01/README.md)
 
 ## Video
-🎥 ¿Quieres ver cómo funciona? Mira la explicación completa y la demo con el carrito de juguete aquí: [[Link a tu video](https://youtu.be/UUrfqOL9G7k)]"
+🎥 ¿Quieres ver cómo funciona? Mira la explicación completa y la demo aquí: [video](https://youtu.be/UUrfqOL9G7k)]
