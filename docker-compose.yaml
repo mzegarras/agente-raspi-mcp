@@ -1,0 +1,25 @@
+services:
+  api-service:
+    image: mzegarra/api-service:0.0.1
+    platform: linux/amd64
+    build:
+      context: ./api
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      MQTT_HOST: "7c9d92b99d8b4d1b92904823717575d5.s1.eu.hivemq.cloud"
+      MQTT_PORT: 8883
+      MQTT_CLIENTID: "mq_backend"
+      MQTT_USERNAME: "hivemq.webclient.1750044026669"
+      MQTT_PASSWORD: "6&3bSDtT7Va*Yj:c2Fs."
+  mcp-service:
+    image: mzegarra/mcp-service:0.0.1
+    platform: linux/amd64
+    build:
+      context: ./mcp
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - "9000:9000"
+    environment:
+      API_URL: "http://api-service:8000/doors"
