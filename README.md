@@ -6,3 +6,6 @@
 ## Como iniciar
 5. Ejecuta `docker-compose up -d` para levantar el API y el servidor MCP.
 4. Ejecuta el agente en `agent01/`. [Readme](agent01/README.md)
+
+## Video
+https://youtu.be/UUrfqOL9G7k
