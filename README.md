@@ -4,6 +4,9 @@
 1. API [Readme](api/README.md)
 2. MCP [Readme](mcp/README.md)
 4. Agente [Readme](agent01/README.md)
+## Diagrama
+![Diagrama](resources/diagrama.jpg)
+
 
 ## Como iniciar
 5. Ejecuta `docker-compose up -d` para levantar el API y el servidor MCP.
