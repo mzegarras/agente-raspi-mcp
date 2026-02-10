@@ -1,3 +1,5 @@
+# MCP Agent + Raspberry Pi: Control de Hardware mediante Reuso de Herramientas
+
 ## Documentación
 1. API [Readme](api/README.md)
 2. MCP [Readme](mcp/README.md)
@@ -8,4 +10,4 @@
 4. Ejecuta el agente en `agent01/`. [Readme](agent01/README.md)
 
 ## Video
-https://youtu.be/UUrfqOL9G7k
+🎥 ¿Quieres ver cómo funciona? Mira la explicación completa y la demo con el carrito de juguete aquí: [[Link a tu video](https://youtu.be/UUrfqOL9G7k)]"
